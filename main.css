@@ -1,0 +1,103 @@
+
+  body {
+    background-image: url("https://cms.qz.com/wp-content/uploads/2020/10/among-us-game-e1601565968912.jpg?quality=75&strip=all&w=1600&h=900&crop=1");
+  }
+
+  h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+    color: rgb(255, 255, 255)
+  }
+
+  .typewriter h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 20 auto;
+    animation:
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  p {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    color:  rgba(255, 255, 255, 0.566);
+    position: absolute; 
+    bottom: 80px; 
+    margin-left: 620px; 
+  }
+
+
+  .button1{
+      display: inline-block;
+      margin-top: 70px;
+      margin-right: 20px;
+      background-color: rgba(1, 1, 17, 0.822); 
+      border-style: solid;
+      border-radius: 10px;
+      color: white;
+      padding: 5px 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 80px;
+      font-family: 'Amatic SC', cursive;
+  }
+  .button2{
+      display: inline-block;
+      margin-top: 70px;
+      margin-left: 20px;
+      background-color: rgba(1, 1, 17, 0.822); 
+      border-style: solid;
+      border-radius: 10px;
+      color: white;
+      padding: 5px 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 80px;
+      font-family: 'Amatic SC', cursive;
+  }
+
+  .btn-hov {
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+  }
+  .btn-hov::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(20, 16, 10, 0.5);
+    transition: all 0.3s;
+  }
+  .btn-hov:hover::before {
+    opacity: 0 ;
+    transform: scale(0.5,0.5);
+  }
+  .btn-hov::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 1px solid rgba(173, 12, 125, 0.5);
+    transform: scale(1.2,1.2);
+  }
+  .btn-hov:hover::after {
+    opacity: 0;
+    transform: scale(1,1);
+  }

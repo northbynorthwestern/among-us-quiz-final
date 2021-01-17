@@ -1,0 +1,22 @@
+body {
+    background-image: url(https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/among-us-wiki/gacha/10.png);
+  }
+
+h1 {
+ font-family: 'Amatic SC', cursive;
+ font-size: 100px;
+ color: rgb(255, 255, 255);
+ background-color: rgba(1, 1, 17, 0.722);
+ width: 50%; 
+ border-style: solid; 
+    }
+
+    p {
+      font-family: 'Amatic SC', cursive;
+      font-size: 50px;
+      color: white;
+      background-color: rgba(46, 25, 2, 0.9);
+      width: 60%; 
+      border-style: ridge;  
+      padding: 25px 25px 25px 25px;
+        }

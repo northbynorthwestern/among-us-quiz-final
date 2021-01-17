@@ -1,0 +1,23 @@
+body {
+    background-image: url(https://static.wikia.nocookie.net/among-us-wiki/images/3/34/Lime.png/revision/latest/top-crop/width/360/height/450?cb=20201013061604);
+  }
+
+  h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(1, 1, 17, 0.722);
+    width: 50%; 
+    border-style: solid; 
+       }
+   
+       p {
+         font-family: 'Amatic SC', cursive;
+         font-weight: bold;
+         font-size: 50px;
+         color: white;
+         background-color: rgba(11, 75, 24, 0.9);
+         width: 60%; 
+         border-style: ridge;  
+         padding: 25px 25px 25px 25px;
+           }

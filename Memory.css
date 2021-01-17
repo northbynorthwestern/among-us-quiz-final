@@ -1,0 +1,79 @@
+body {
+    background-image: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2020/11/Among-Us-Start-Reactor.jpg?q=50&fit=crop&w=740&h=370");
+  }
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(1, 1, 17, 0.722);
+  }
+
+.button1{
+  display: inline-block;
+  margin-top: 70px;
+  margin-right: 90px;
+  margin-left: 0px;
+  background-color: rgba(1, 1, 17, 0.822); 
+  border-style: solid;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 60px;
+  font-family: 'Amatic SC', cursive;
+}
+.button2{
+  display: inline-block;
+  margin-top: 70px;
+  margin-left: 100px;
+  margin-right: 90px;
+  background-color: rgba(1, 1, 17, 0.822); 
+  border-style: solid;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 60px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.btn-hov {
+	color: #FFF;
+	transition: all 0.5s;
+	position: relative;
+}
+.btn-hov::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-color: rgba(20, 16, 10, 0.5);
+	transition: all 0.3s;
+}
+.btn-hov:hover::before {
+	opacity: 0 ;
+	transform: scale(0.5,0.5);
+}
+.btn-hov::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border: 1px solid rgba(173, 12, 125, 0.5);
+	transform: scale(1.2,1.2);
+}
+.btn-hov:hover::after {
+	opacity: 0;
+	transform: scale(1,1);
+}
